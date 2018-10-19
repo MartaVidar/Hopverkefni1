@@ -1,0 +1,24 @@
+{
+  "name": "hopverkefni1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "dev": "npm-run-all --parallel sass browser-sync",
+    "sass": "node-sass --source-map-embed styles.scss styles.css -w",
+    "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
+    "lint-sass": "stylelint styles.scss --syntax scss"
+  },
+  "author": "Marta",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "npm-run-all": "^4.1.3",
+    "stylelint": "^9.6.0",
+    "stylelint-config-primer": "^2.2.10"
+  }
+}
