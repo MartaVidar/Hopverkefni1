@@ -175,9 +175,67 @@ li {
   font-family: 'Open sans', helvetica, arial, sans-serif;
 }
 
-@media (min-width: 500px) AND (max-width: 800px) {
+*/ Staff CSSið */
+
+.staff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.staffcontainer {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 590px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.staffcard  {
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+
+.staffcard:hover {
+  transform: rotateY(180deg);
+}
+
+.face {
+  backface-visibility: hidden;
+}
+
+.face.back {
+  transform: rotateY(180deg);
+  background-color: white;
+}
+
+.um__staff {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.staff__img {
+  max-width: 100%;
+}
+
+@media (min-width: 501px) AND (max-width: 800px) {
   .card__row {
     justify-content: space-between;
+  }
+    .staffcard {
+      max-width: 370px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .staffcontainer {
+    max-width: 390px;
   }
 }
 
@@ -188,5 +246,9 @@ li {
 
   .tags__cart {
     position: inherit;
+  }
+    .staffcard {
+      padding-left: 10px;
+      padding-right: 10px;
   }
 }
