@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Karfa</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="../grid.css">
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -82,15 +84,15 @@
         <div class="card__row">
           <div class="card__col">
             <h2>Sendingarupplýsingar</h2>
-            <div>
+            <div class="name">
               <label for="name">Nafn:</label>
               <input type="text" name="name" id="name" required="required">
             </div>
-            <div>
-              <label for="address">Heimilisfang</label>
+            <div class="address">
+              <label for="address">Heimilisfang:</label>
               <input type="text" name="address" id="address" required="required">
             </div>
-            <div>
+            <div class="postnr">
               <span>Póstnúmer:</span>
               <select>
                 <option value="choose">-Velja póstnúmer-</option>
@@ -100,16 +102,16 @@
 
           <div class="card__col">
             <h2>Greiðsluupplýsingar</h2>
-            <div>
+            <div class="cardnr">
               <label for="cardnr">Kortanúmer:</label>
               <input type="number" name="cardnr" id="cardnr" required="required">
             </div>
-            <div>
-              <label for="card">Korthafi</label>
+            <div class="cardid">
+              <label for="card">Korthafi:</label>
               <input type="text" name="card" id="card" required="required">
             </div>
-            <div>
-              <p>Gildistími</p>
+            <div class="valid">
+              <p>Gildistími:</p>
               <span>Mán</span>
               <select>
                 <option value="jan">01</option>
@@ -142,7 +144,7 @@
           <div class="footer__col">
             <div class="footer__tags">
               <h3>Vöruflokkar</h3>
-              <ul>
+              <ul class="footer__content">
                 <li>
                   <a href="products.html">Nauðsynjavörur</a>
                 </li>

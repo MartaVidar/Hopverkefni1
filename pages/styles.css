@@ -28,12 +28,28 @@ main {
   max-width: 1200px;
 }
 
-h1{
+h1 {
   text-align: center;
+  font-family: 'Oswald', Verdana, serif;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: 'Oswald', Verdana, serif;
+}
+
+h3 {
+  font-family: 'Oswald', Verdana, serif;
 }
 
 footer {
   background-color: #cc9694;
+  font-family: 'Open sans', helvetica, arial, sans-serif;
+}
+
+p {
+  font-family: 'Open sans', helvetica, arial, sans-serif;
+  font-size: 12px;
 }
 
 .footer__row {
@@ -43,10 +59,13 @@ footer {
 
 .button{
   background-color: #cc9694;
+  width: 15%;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .image {
-  max-width: 220px;
+  max-width: 170px;
   max-height: 170px;
 }
 
@@ -54,6 +73,8 @@ footer {
   display: flex;
   justify-content: center;
   padding-top: 15px;
+  font-family: 'Open sans', helvetica, arial, sans-serif;
+  font-variant: small-caps;
 }
 
 .tags li {
@@ -75,12 +96,14 @@ li {
 
 .cart__row {
   display: flex;
+  margin-bottom:20px;
 }
 
 .cart__info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 .card__row {
@@ -88,19 +111,20 @@ li {
   justify-content: center;
 }
 
+.card__col {
+  padding: 20px;
+}
+
 .cart__button {
   border-radius: 2px;
   padding: 5px;
+  font-family: 'Open sans', helvetica, arial, sans-serif;
 }
 
 .button__container {
   display: flex;
   justify-content: center;
   padding: 5px;
-}
-
-.button {
-  
 }
 
 .button__icon {
@@ -115,6 +139,41 @@ li {
 .trademark {
   display: flex;
   justify-content: center;
+}
+
+.footer__content {
+  text-decoration: none;
+  font-family: 'Open sans', helvetica, arial, sans-serif;
+}
+
+.name {
+  padding: 10px;
+  font-family: 'Open sans', helvetica, arial, sans-serif;
+}
+
+.address {
+  padding: 10px;
+  font-family: 'Open sans', helvetica, arial, sans-serif;
+}
+
+.postnr {
+  padding: 10px;
+  font-family: 'Open sans', helvetica, arial, sans-serif;
+}
+
+.cardnr{
+  padding: 10px;
+  font-family: 'Open sans', helvetica, arial, sans-serif;
+}
+
+.cardid{
+  padding: 10px;
+  font-family: 'Open sans', helvetica, arial, sans-serif;
+}
+
+.valid{
+  padding: 10px;
+  font-family: 'Open sans', helvetica, arial, sans-serif;
 }
 
 @media (min-width: 500px) AND (max-width: 800px) {
