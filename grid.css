@@ -3,7 +3,7 @@
     --max_width: 1200px;
     --columns: 12;
     --gutter: 20px;
-    --color: hsla(204, 80%, 72%, 0.25);
+  /*  --color: hsla(204, 80%, 72%, 0.25);*/
     --repeating-width: calc(100% / var(--columns));
     --column-width: calc((100% / var(--columns)) - var(--gutter));
     --background-width: calc(100% + var(--gutter));
@@ -15,12 +15,12 @@
       transparent var(--repeating-width)
     );
   }
-  
+
   /* Styling */
   html {
     position: relative;
   }
-  
+
   html::before {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
