@@ -175,12 +175,17 @@ li {
   font-family: 'Open sans', helvetica, arial, sans-serif;
 }
 
-*/ Staff CSSið */
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
 .staff {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 1200;
+  margin-top: 50px;
 }
 
 .staffcontainer {
@@ -225,17 +230,21 @@ li {
   max-width: 100%;
 }
 
-@media (min-width: 501px) AND (max-width: 800px) {
-  .card__row {
-    justify-content: space-between;
-  }
-    .staffcard {
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .staffcard {
       max-width: 370px;
       padding-left: 10px;
       padding-right: 10px;
   }
   .staffcontainer {
     max-width: 390px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .staffcard {
+      padding-left: 10px;
+      padding-right: 10px;
   }
 }
 
