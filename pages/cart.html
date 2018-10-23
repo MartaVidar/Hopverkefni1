@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Karfa</title>
     <link rel="stylesheet" href="../grid.css">
-    <link rel="stylesheet" href="../cart.scss">
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
     <header class="header__row">
       <h1>Karfa</h1>
-      <ul>
+      <ul class="tags">
         <li>
           <a href="../index.html">Forsíða</a>
         </li>
@@ -36,8 +36,8 @@
         <h3>99.900 kr.-</h3>
         <p>Fjöldi:</p>
         <p>1</p>
-        <p>Uppfæra</p>
-        <p>Eyða úr körfu</p>
+        <button type="button">Uppfæra</button>
+        <button type="button">Eyða úr körfu</button>
       </div>
 
       <div>
@@ -47,61 +47,64 @@
         <h3>39.999 kr.-</h3>
         <p>Fjöldi:</p>
         <p>2</p>
-        <p>Uppfæra</p>
-        <p>Eyða úr körfu</p>
+        <button type="button">Uppfæra</button>
+        <button type="button">Eyða úr körfu</button>
       </div>
 
-      <div>
-        <h2>Sendingarupplýsingar</h2>
-        <div>
-          <label for="name">Nafn:</label>
-          <input type="text" name="name" id="name" required="required">
+      <div class="card__row">
+        <div class="card__col">
+          <h2>Sendingarupplýsingar</h2>
+          <div>
+            <label for="name">Nafn:</label>
+            <input type="text" name="name" id="name" required="required">
+          </div>
+          <div>
+            <label for="address">Heimilisfang</label>
+            <input type="text" name="address" id="address" required="required">
+          </div>
+          <div>
+            <span>Póstnúmer:</span>
+            <select>
+              <option value="choose">-Velja póstnúmer-</option>
+            </select>
+          </div>
         </div>
-        <div>
-          <label for="address">Heimilisfang</label>
-          <input type="text" name="address" id="address" required="required">
-        </div>
-        <div>
-          <span>Póstnúmer:</span>
-          <select>
-            <option value="choose">-Velja póstnúmer-</option>
-          </select>
-        </div>
-      </div>
 
-      <div>
-        <h2>Greiðsluupplýsingar</h2>
-        <div>
-          <label for="cardnr">Kortanúmer:</label>
-          <input type="number" name="cardnr" id="cardnr" required="required">
-        </div>
-        <div>
-          <label for="card">Korthafi</label>
-          <input type="text" name="card" id="card" required="required">
-        </div>
-        <div>
-          <p>Gildistími</p>
-          <span>Mán</span>
-          <select>
-            <option value="jan">01</option>
-            <option value="feb">02</option>
-            <option value="mars">03</option>
-            <option value="april">04</option>
-            <option value="mai">05</option>
-            <option value="juni">06</option>
-            <option value="juli">07</option>
-            <option value="agust">08</option>
-            <option value="sept">09</option>
-            <option value="okt">10</option>
-            <option value="nov">11</option>
-            <option value="des">12</option>
-          </select>
-          <span>Ár</span>
-          <select>
-            <option value="choose">2018</option>
-          </select>
+        <div class="card__col">
+          <h2>Greiðsluupplýsingar</h2>
+          <div>
+            <label for="cardnr">Kortanúmer:</label>
+            <input type="number" name="cardnr" id="cardnr" required="required">
+          </div>
+          <div>
+            <label for="card">Korthafi</label>
+            <input type="text" name="card" id="card" required="required">
+          </div>
+          <div>
+            <p>Gildistími</p>
+            <span>Mán</span>
+            <select>
+              <option value="jan">01</option>
+              <option value="feb">02</option>
+              <option value="mars">03</option>
+              <option value="april">04</option>
+              <option value="mai">05</option>
+              <option value="juni">06</option>
+              <option value="juli">07</option>
+              <option value="agust">08</option>
+              <option value="sept">09</option>
+              <option value="okt">10</option>
+              <option value="nov">11</option>
+              <option value="des">12</option>
+            </select>
+            <span>Ár</span>
+            <select>
+              <option value="choose">2018</option>
+            </select>
+          </div>
         </div>
       </div>
+      <button class="button">Kaupa</button>
     </main>
 
     <footer>
