@@ -63,6 +63,53 @@ p {
   margin-bottom: 20px;
 }
 
+.index__button {
+  background-color:#cc9694;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.index__button:hover {
+  background-color:#000000;
+  color: #cc9694;
+}
+
+.indexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200;
+  margin-top: 30px;
+}
+
+.index__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.index__info {
+  width: 100%;
+  max-width: 590px;
+  line-height: 50px;
+}
+
+.index__image {
+  width: 100%;
+  max-width: 590px;
+  max-height: 350px;
+}
+
 .image {
   max-width: 170px;
   max-height: 170px;
@@ -239,6 +286,18 @@ main {
   .staffcontainer {
     max-width: 390px;
   }
+
+  .index__card {
+    max-width: 760px;
+  }
+
+  .index__info {
+    max-width: 390px;
+  }
+  
+  .index__image {
+    max-width: 390px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -256,6 +315,11 @@ main {
   .tags__cart {
     position: inherit;
   }
+
+  .staffcontainer {
+    max-width: 490px;
+  }
+
     .staffcard {
       padding-left: 10px;
       padding-right: 10px;
