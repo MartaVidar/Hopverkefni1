@@ -202,7 +202,7 @@ main {
 
 .staffcard  {
   transform-style: preserve-3d;
-  transition: all 1.0s linear;
+  transition: all 0.300s linear;
 }
 
 .staffcard:hover {
