@@ -58,21 +58,26 @@ p {
 
 .links {
   color: #000000;
-  }
+}
 
-  .links:hover{
-    color:white;
-    }
+.links:hover{
+  color:white;
+}
 
 .tags li a.current {
   text-decoration: underline;
   }
 
-.button{
+.button__buy {
   background-color: #cc9694;
   width: 15%;
   padding: 5px;
   margin-bottom: 20px;
+}
+
+.button__buy:hover {
+  background-color: black;
+  color: #cc9694;
 }
 
 .index__button {
@@ -106,7 +111,6 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
   margin-bottom: 50px;
   width: 100%;
   max-width: 1200px;
@@ -179,6 +183,10 @@ li {
   border-radius: 2px;
   padding: 5px;
   font-family: 'Open sans', helvetica, arial, sans-serif;
+}
+
+.cart__button:hover {
+  background-color: #cc9694;
 }
 
 .button__container {
