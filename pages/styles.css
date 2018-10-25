@@ -68,7 +68,9 @@ p {
   border: none;
   border-radius: 5px;
   color: black;
-  padding: 10px 30px;
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
