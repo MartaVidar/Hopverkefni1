@@ -56,6 +56,18 @@ p {
   max-width: 1200px;
 }
 
+.links {
+  color: #000000;
+  }
+
+  .links:hover{
+    color:white;
+    }
+
+.tags li a.current {
+  text-decoration: underline;
+  }
+
 .button{
   background-color: #cc9694;
   width: 15%;
