@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -58,27 +63,27 @@ p {
 
 .links {
   color: #000000;
-}
+  }
 
-.links:hover{
-  color:white;
-}
+  .links:hover{
+    color:white;
+    }
 
 .tags li a.current {
   text-decoration: underline;
   }
 
-.button__buy {
-  background-color: #cc9694;
-  width: 15%;
-  padding: 5px;
-  margin-bottom: 20px;
-}
-
-.button__buy:hover {
-  background-color: black;
-  color: #cc9694;
-}
+  .button__buy {
+    background-color: #cc9694;
+    width: 15%;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .button__buy:hover {
+    background-color: black;
+    color: #cc9694;
+  }
 
 .index__button {
   background-color:#cc9694;
@@ -111,6 +116,7 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
   margin-bottom: 50px;
   width: 100%;
   max-width: 1200px;
@@ -221,17 +227,11 @@ li {
   line-height: 3;
 }
 
-
 .card__info{
   padding: 10px;
   font-family: 'Open sans', helvetica, arial, sans-serif;
   font-size: 12px;
   line-height: 3;
-}
-
-main {
-    margin: 0 auto;
-    max-width: 1200px;
 }
 
 .staff {
@@ -285,50 +285,70 @@ main {
 }
 
 @media screen and (min-width: 501px) and (max-width: 800px) {
+
   .staffcard {
       max-width: 370px;
       padding-left: 10px;
       padding-right: 10px;
   }
+
   .staffcontainer {
     max-width: 390px;
   }
 
   .index__card {
-    max-width: 760px;
-  }
-
-  .index__info {
-    max-width: 390px;
+    max-width: 780px;
+    padding-left: 20px;
   }
 
   .index__image {
-    max-width: 390px;
+    max-width: 48.5%;
+  }
+
+  .index__info {
+    max-width: 48.5%;
   }
 }
 
 @media screen and (max-width: 500px) {
+
+  .staffcontainer {
+    max-width: 490px;
+    }
+    
   .staffcard {
       padding-left: 10px;
       padding-right: 10px;
   }
-}
 
-@media (max-width: 500px) {
-  .card__row {
+  .indexcontainer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .index__card {
+    max-width: 480px;
     flex-direction: column;
+    padding-left: 20px;
+    margin-bottom: 0px;
   }
 
-  .tags__cart {
-    position: inherit;
+  .index__info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .index__image {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
-  .staffcontainer {
-    max-width: 490px;
+.card__row {
+  flex-direction: column;
   }
 
-    .staffcard {
-      padding-left: 10px;
-      padding-right: 10px;
+.tags__cart {
+  position: inherit;
   }
+
 }
