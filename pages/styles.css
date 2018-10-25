@@ -206,34 +206,19 @@ li {
   font-family: 'Open sans', helvetica, arial, sans-serif;
 }
 
-.name {
+.name__info {
   padding: 10px;
   font-family: 'Open sans', helvetica, arial, sans-serif;
+  font-size: 12px;
+  line-height: 3;
 }
 
-.address {
-  padding: 10px;
-  font-family: 'Open sans', helvetica, arial, sans-serif;
-}
 
-.postnr {
+.card__info{
   padding: 10px;
   font-family: 'Open sans', helvetica, arial, sans-serif;
-}
-
-.cardnr{
-  padding: 10px;
-  font-family: 'Open sans', helvetica, arial, sans-serif;
-}
-
-.cardid{
-  padding: 10px;
-  font-family: 'Open sans', helvetica, arial, sans-serif;
-}
-
-.valid{
-  padding: 10px;
-  font-family: 'Open sans', helvetica, arial, sans-serif;
+  font-size: 12px;
+  line-height: 3;
 }
 
 main {
@@ -308,7 +293,7 @@ main {
   .index__info {
     max-width: 390px;
   }
-  
+
   .index__image {
     max-width: 390px;
   }
