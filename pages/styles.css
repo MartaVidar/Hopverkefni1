@@ -74,10 +74,17 @@ p {
   }
 
   .button__buy {
-    background-color: #cc9694;
-    width: 15%;
-    padding: 5px;
-    margin-bottom: 20px;
+    background-color:#cc9694;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
   }
   
   .button__buy:hover {
@@ -185,9 +192,23 @@ li {
   padding: 20px;
 }
 
+input {
+  padding: 6px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
 .cart__button {
-  border-radius: 2px;
+  background-color: white;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: black;
   padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
   font-family: 'Open sans', helvetica, arial, sans-serif;
 }
 
@@ -219,6 +240,11 @@ li {
   text-decoration: none;
   font-family: 'Open sans', helvetica, arial, sans-serif;
 }
+
+.grid__row {
+  margin-bottom: 20px;
+}
+
 
 .name__info {
   padding: 10px;
