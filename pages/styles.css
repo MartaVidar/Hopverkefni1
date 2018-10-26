@@ -363,6 +363,34 @@ input {
   max-width: 100%;
 }
 
+.products {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  align-content: stretch;
+  text-align: start;
+  line-height: 30px;
+}
+
+.product__container 
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  height: 100%;
+  justify-content: space-between;
+  max-width: 32%;
+}
+
+.product__img__img {
+  width: 100%;
+  height: 100%;
+ }
+
 @media screen and (min-width: 501px) and (max-width: 800px) {
 
   .staffcard {
@@ -391,6 +419,15 @@ input {
   .grid__row {
     max-width: 780px;
     padding-left: 20px;
+  }
+
+  .products {
+    max-width: 780px;
+  }
+
+  .product__container {
+  max-width: 50%;
+  padding-left: 20px;
   }
 }
 
@@ -456,55 +493,15 @@ input {
   position: inherit;
   }
 
-}
-
-.products {
-  display: flex;
-  flex-flow: row wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 1200;
-  margin-top: 50px;
-  margin-bottom: 0px;
-  align-content: stretch;
-  text-align: start;
-  line-height: 30px;
-  
- 
-}
-
-.product__container 
-{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-  width: 32%;
-  height: 100%;
-  justify-content: space-between;
-  
-  
-}
-
-.product__img__img {
-  width: 100%;
-  height: 100%;
- }
- 
- @media  screen and (width: 800px) {
-  .product__container 
-{
-  display: flex;
-  flex-flow: row wrap;
-  width: 50%;
-  
-}
-}
-
-  @media  screen and (min-width: 500px) {
-    .product__container 
-  {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
+  .products {
+    flex-direction: column;
+    max-width: 500px;
   }
+
+  .product__container {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
 }
+
