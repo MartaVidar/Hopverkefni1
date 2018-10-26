@@ -6,7 +6,7 @@
 
 	npm run dev
 
-## Uppsetning verkefnis
+## Uppsetning verkefnis:
 
 texti
 
