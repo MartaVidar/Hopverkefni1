@@ -6,9 +6,9 @@ Til að keyra:
 
 	npm run dev
 
-Uppsetning verkefnis:
+## Uppsetning verkefnis
 
 texti
 
-Þeir sem unnu verkefnið:
+## Þeir sem unnu verkefnið:
 
