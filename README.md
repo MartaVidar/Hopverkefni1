@@ -12,9 +12,9 @@ texti
 
 ## Þeir sem unnu verkefnið:
 
-Anna María Steingrímsdóttir  ams58@hi.is  github: annamaria99
+Anna María Steingrímsdóttir - ams58@hi.is - github: annamaria99
 
 Marta
 
-Ómar Valur
+Ómar Valur Jónasson - ovj3@hi.is  - github: mariodawg
 
