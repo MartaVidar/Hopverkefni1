@@ -5,31 +5,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vöruhúsið</title>
-
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link rel="stylesheet" href="grid.css">
   <link rel="stylesheet" href="./pages/styles.css">
 </head>
 
 <body>
   <header class="header__row">
-    <section class="header__col">
+    <div class="header__col">
       <h1>Vöruhúsið</h1>
       <ul class="tags">
         <li>
-          <a href="index.html">Forsíða</a>
+          <a class="links current" href="index.html">Forsíða</a>
         </li>
         <li>
-          <a href="./pages/products.html">Vörur</a>
+          <a class="links" href="./pages/products.html">Vörur</a>
         </li>
         <li>
-          <a href="./pages/staff.html">Starfsfólk</a>
+          <a class="links" href="./pages/staff.html">Starfsfólk</a>
         </li>
         <li class="tags__cart">
           <img class="button__icon" src="./img/cart.svg" alt="Ótrúlegt úr">
-          <a href="cart.html">Karfa (3)</a>
+          <a class="links" href="./pages/cart.html">Karfa (3)</a>
         </li>
       </ul>
-    </section>
+    </div>
   </header>
 
   <main>
@@ -38,7 +39,7 @@
         <div class="index__info">
           <h2>Allar vörurnar</h2>
           <p>Vöruhúsið hefur allar þær vörur sem þér vantar</p>
-          <button type="button" class="index__button">Skoða vörur</button>
+          <a href="./pages/products.html" class="index__button">Skoða vörur</a>
         </div>
         <img class="index__image" src="./img/products.jpg" alt="Margar vörur">
       </div>
@@ -48,7 +49,7 @@
         <div class="index__info">
           <h2>Besta starfsfólkið</h2>
           <p>Starfsfólkið okkar hugsar vel um þig.</p>
-          <button type="button" class="index__button">Kynnast starfsfólki</button>
+          <a href="./pages/staff.html" class="index__button">Kynnast starfsfólki</a>
         </div>
       </div>
     </div>
@@ -61,40 +62,19 @@
           <h3>Vöruflokkar</h3>
           <ul class="footer__content">
             <li>
-              <a href="./pages/products.html">Nauðsynjavörur</a>
+              <a class="links" href="./pages/products.html">Nauðsynjavörur</a>
             </li>
             <li>
-              <a href="./pages/products.html">Frábærar vörur</a>
+              <a class="links" href="./pages/products.html">Frábærar vörur</a>
             </li>
             <li>
-              <a href="./pages/products.html">Ómissandi vörur</a>
+              <a class="links" href="./pages/products.html">Ómissandi vörur</a>
             </li>
             <li>
-              <a href="./pages/products.html">Ótrúlegar vörur</a>
+              <a class="links" href="./pages/products.html">Ótrúlegar vörur</a>
             </li>
             <li>
-              <a href="./pages/products.html">Magnaðar vörur</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer__tags">
-          <h3>Vöruflokkar</h3>
-          <ul>
-            <li>
-              <a href="./pages/products.html">Trylltar vörur</a>
-            </li>
-            <li>
-              <a href="./pages/products.html">Geggjaðar vörur</a>
-            </li>
-            <li>
-              <a href="./pages/products.html">Svakalegar vörur</a>
-            </li>
-            <li>
-              <a href="./pages/products.html">Fáránlegar vörur</a>
-            </li>
-            <li>
-              <a href="./pages/products.html">Klikkaðar vörur</a>
+              <a class="links" href="./pages/products.html">Magnaðar vörur</a>
             </li>
           </ul>
         </div>
@@ -103,13 +83,34 @@
           <h3>Vöruflokkar</h3>
           <ul>
             <li>
-              <a href="./pages/products.html">Nýjar vörur</a>
+              <a class="links" href="./pages/products.html">Trylltar vörur</a>
             </li>
             <li>
-              <a href="./pages/products.html">Gamlar vörur</a>
+              <a class="links" href="./pages/products.html">Geggjaðar vörur</a>
             </li>
             <li>
-              <a href="./pages/products.html">Skrítnar vörur</a>
+              <a class="links" href="./pages/products.html">Svakalegar vörur</a>
+            </li>
+            <li>
+              <a class="links" href="./pages/products.html">Fáránlegar vörur</a>
+            </li>
+            <li>
+              <a class="links" href="./pages/products.html">Klikkaðar vörur</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__tags">
+          <h3>Vöruflokkar</h3>
+          <ul>
+            <li>
+              <a class="links" href="./pages/products.html">Nýjar vörur</a>
+            </li>
+            <li>
+              <a class="links" href="./pages/products.html">Gamlar vörur</a>
+            </li>
+            <li>
+              <a class="links" href="./pages/products.html">Skrítnar vörur</a>
             </li>
           </ul>
         </div>
@@ -118,13 +119,13 @@
           <h3>Síður</h3>
           <ul>
             <li>
-              <a href="./pages/products.html">Allar vörur</a>
+              <a class="links" href="./pages/products.html">Allar vörur</a>
             </li>
             <li>
-              <a href="./pages/staff.html">Starfsfólk</a>
+              <a class="links" href="./pages/staff.html">Starfsfólk</a>
             </li>
             <li>
-              <a href="./pages/cart.html">Karfa</a>
+              <a class="links" href="./pages/cart.html">Karfa</a>
             </li>
           </ul>
         </div>
@@ -134,6 +135,5 @@
       </div>
     </div>
   </footer>
-</body>
 
 </html>
