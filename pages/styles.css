@@ -197,6 +197,10 @@ input {
   border: 1px solid #000000;
   border-radius: 4px;
   font-size: 12px;
+  line-height: 20px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 .cart__button {
@@ -260,6 +264,7 @@ input {
 
 .name__stock {
   width: 100%;
+  padding: 15px;
 }
 
 .name__fill {
@@ -271,6 +276,10 @@ input {
 }
 
 .card__col input[type="number"] {
+  width:150px;
+}
+
+.card__col input[type="tel"] {
   width:150px;
 }
 
@@ -291,6 +300,7 @@ input {
 
 .card__stock {
   width: 100%;
+  padding: 15px;
 }
 
 .card__fill {
@@ -457,7 +467,6 @@ input {
  
 }
 
-
 .product__container 
 {
   display: flex;
@@ -469,14 +478,6 @@ input {
   
   
 }
-
-input
-{
-line-height: 20px;
-margin-right: 10px;
-margin-bottom: 0px;
-}
-  
 
 .product__img__img {
   width: 100%;
@@ -491,11 +492,13 @@ margin-bottom: 0px;
   width: 50%;
   
 }
+}
 
   @media  screen and (min-width: 500px) {
     .product__container 
-    {
-      display: flex;
-      flex-flow: row wrap;
-      width: 100%;
-    }
+  {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+}

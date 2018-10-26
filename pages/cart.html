@@ -46,7 +46,7 @@
           <div>
             <h3>99.900 kr.-</h3>
             <p>Fjöldi:</p>
-            <input size="6">
+            <input size="6" type="number" min="0">
             <button type="button" class="cart__button">
               <img class="button__icon" src="../img/cart.svg" alt="Karfa">
               Uppfæra
@@ -70,7 +70,7 @@
           <div>
             <h3>39.900 kr.-</h3>
             <p>Fjöldi:</p>
-            <input size="6">
+            <input size="6" type="number" min="0">
             <button type="button" class="cart__button">
               <img class="button__icon" src="../img/cart.svg" alt="Karfa">
               Uppfæra
@@ -304,7 +304,7 @@
               </div>
             </div>
             <div class="card__fill">
-              <input type="number" name="cardnr" id="cardnr" required="required">
+              <input type="tel" name="cardnr" id="cardnr" required="required" x-autocompletetype="cc-number" autocompletetype="cc-number" autocorrect="off" spellcheck="off" autocapitalize="off">
               <input type="text" name="card" id="card" required="required">
               <br>
               <span>Mán</span>
