@@ -1,9 +1,15 @@
 # Hopverkefni1
 
-Til að keyra:
+##Til að keyra:
 
 	npm install
-  
+
 	npm run dev
-  
-Uppsetning verkefnis  
+
+##Uppsetning verkefnis:
+texti
+
+##Þeir sem unnu verkefnið:
+Anna María Steingrímsdóttir  ams58@hi.is  github: annamaria99
+Marta
+Ómar Valur
