@@ -1,4 +1,4 @@
-# Hopverkefni1
+# Hópverkefni1
 
 Til að keyra:
 
