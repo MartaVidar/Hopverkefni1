@@ -8,7 +8,7 @@
 
 ## Uppsetning verkefnis:
 
-texti
+Verkefninu er skipt upp í þær möppur sem okkur var gefið, undirsíðurnar okkar eru undir möppunni /pages ásamt styles.css og myndirnar sem notaðar voru í verkefninu eru í /img.
 
 ## Þeir sem unnu verkefnið:
 
