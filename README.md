@@ -14,3 +14,7 @@ texti
 
 Anna María Steingrímsdóttir  ams58@hi.is  github: annamaria99
 
+Marta
+
+Ómar Valur
+
