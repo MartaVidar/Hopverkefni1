@@ -376,8 +376,7 @@ input {
   line-height: 30px;
 }
 
-.product__container 
-{
+.product__container {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;

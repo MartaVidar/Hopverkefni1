@@ -19,7 +19,10 @@ html { /* stylelint-disable-line */
   // TODO fleiri grunn stillingar
 }
 
-
+main { /* stylelint-disable-line */
+  margin: 0 auto;
+  max-width: 1200px;
+}
 
 // TODO sækja allar sass skrár
 @import "scss/...";
