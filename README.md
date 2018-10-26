@@ -32,6 +32,9 @@ styles.css sem stýrir útliti á öllum .html.
 
 grid.css til að sjá grid.
 
+## Annað
+
+Því miður misskildum við aðeins fyrirkomulagið með sass og skrifuðum því css skjal sem fylgir.
 
 ## Þeir sem unnu verkefnið:
 
