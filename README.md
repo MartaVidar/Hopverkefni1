@@ -1,6 +1,6 @@
 # Hópverkefni1
 
-Til að keyra:
+## Til að keyra:
 
 	npm install
 
