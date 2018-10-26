@@ -242,22 +242,59 @@ input {
 }
 
 .grid__row {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 
 .name__info {
+  display: flex;
+  flex-direction: row;
+  position: relative;
   padding: 10px;
   font-family: 'Open sans', helvetica, arial, sans-serif;
   font-size: 12px;
   line-height: 3;
+  max-width: 300px;
 }
 
-.card__info{
+.name__stock {
+  width: 100%;
+}
+
+.name__fill {
+  max-width: 50%;
+}
+
+.card__col input[type="text"] {
+  width:150px;
+}
+
+.card__col input[type="number"] {
+  width:150px;
+}
+
+.name__info select {
+  width:150px;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: row;
+  position: relative;
   padding: 10px;
   font-family: 'Open sans', helvetica, arial, sans-serif;
   font-size: 12px;
   line-height: 3;
+  max-width: 300px;
+}
+
+.card__stock {
+  width: 100%;
+}
+
+.card__fill {
+  max-width: 50%;
 }
 
 .staff {
@@ -334,6 +371,11 @@ input {
   .index__info {
     max-width: 48.5%;
   }
+
+  .grid__row {
+    max-width: 780px;
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -369,9 +411,30 @@ input {
     margin-bottom: 10px;
   }
 
+  .grid__row {
+    max-width: 480px;
+    padding-left: 20px;
+  }
+
+  .cart__row {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .cart__row .image {
+    max-width: 480px;
+    max-height: none;
+  }
+
 .card__row {
   flex-direction: column;
+  margin-top: 20px;
   }
+
+  .cart__info {
+    margin-top: 20px;
+    padding: 0px;
+    }
 
 .tags__cart {
   position: inherit;
