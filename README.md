@@ -12,3 +12,5 @@ texti
 
 ## Þeir sem unnu verkefnið:
 
+Anna María Steingrímsdóttir  ams58@hi.is  github: annamaria99
+
